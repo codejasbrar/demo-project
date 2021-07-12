@@ -1,6 +1,9 @@
 name: Deploy Shopify Theme
 
-on: [push]
+on:
+  push:
+    branches:
+      - Develop
 jobs:
   shopify:
     name: Shopify
