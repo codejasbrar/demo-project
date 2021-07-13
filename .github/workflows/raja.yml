@@ -3,7 +3,7 @@ name: Deploy Shopify Theme
 on:
   push:
     branches:
-      - Andrew
+      - master
 jobs:
   shopify:
     name: Shopify
@@ -13,7 +13,7 @@ jobs:
       - name: Shopify
         uses: pgrimaud/action-shopify@master
         env:
-          SHOPIFY_PASSWORD: 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
-          SHOPIFY_STORE_URL: jas-missoma-test.myshopify.com
-          SHOPIFY_THEME_ID: 124475048112
+          SHOPIFY_PASSWORD: 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
+          SHOPIFY_STORE_URL: test-webezy.myshopify.com
+          SHOPIFY_THEME_ID: 122960478385
           THEME_PATH: ./
