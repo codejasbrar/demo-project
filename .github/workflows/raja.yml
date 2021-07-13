@@ -3,7 +3,7 @@ name: Deploy Shopify Theme
 on:
   push:
     branches:
-      - Andrew
+      - Raja
 jobs:
   shopify:
     name: Shopify
