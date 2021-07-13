@@ -14,6 +14,6 @@ jobs:
         uses: pgrimaud/action-shopify@master
         env:
           SHOPIFY_PASSWORD: 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
-          SHOPIFY_STORE_URL: jas-missoma-test
+          SHOPIFY_STORE_URL: jas-missoma-test.myshopify.com
           SHOPIFY_THEME_ID: 124742107312
           THEME_PATH: ./
